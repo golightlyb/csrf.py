@@ -1,0 +1,10 @@
+__pycache*
+
+.*
+*~
+!.gitignore
+*.egg*
+
+/build
+/dist
+
