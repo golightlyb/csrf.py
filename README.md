@@ -77,6 +77,13 @@ except csrf.Error:
 ```
 
 
+Installation
+------------
+
+    sudo pip3 install csrf --upgrade
+
+
+
 Reference
 ---------
 
@@ -141,7 +148,6 @@ token is invalid or expired
     class csrf.Error(Exception)
 
 * inherits from `Exception`
-
 
 
 COPYING
