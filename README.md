@@ -132,7 +132,8 @@ token was generated at.
 * `token: str` - a previously generated token from a call to `csrf.generate`
 (even if the function was called by another process or another server, as long
 as the server_secret is the same)
-* No return value, but may raise an exception of type `csrf.Error`.
+* No return value, but raises an exception of type `csrf.Error` if the
+token is invalid or expired
 
 
 ### csrf.Error
